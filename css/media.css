@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1500px){
+	#slider .carousel-caption {left: 12%;}
+}
+@media only screen and (max-width: 1439px){
+	header .container{width: 1250px;}
+	header .rheader {width: 989px;}
+	header .custnav ul.menus > li {padding: 0px 18px;}
+	#slider .carousel-caption {left: 10%;}
+	#aboutjordan .custtabs {left: 23px;}
+	#aboutjordan .selectopts {margin-left: 0; padding-left: 10px;}
+	#aboutjordan select.custfield, #aboutjordan .dropoptions .dropselect {width: 159px;}
+	#aboutjordan .dropoptions {padding: 2px 0 2px 10px; margin-left: 0px;}
+}
+@media only screen and (max-width: 1249px){
+	header .container{width: 970px;}
+	.container {width: 970px;}
+	header .logo {border-right: none; border-bottom: 1px solid #d9d9d9; width: 100%; padding: 10px 0; text-align: center;}
+	header .welcome {margin-left: 15px;}
+	header .rheader {width: 100%; border-left: 1px solid #d9d9d9; border-right: 1px solid #d9d9d9;}
+	header .signuplogin {padding: 16px 14px 15px 13px;}
+	#aboutpart .aboutus {width: 100%;}
+	#aboutpart .aboutusimg {padding: 0;}
+	#aboutjordan .custtabs {left: 16px;}
+	#aboutjordan .selectopts, #aboutjordan .dropoptions {border-left: none; border-top: 1px solid #e0e0e0; width: 100%; padding: 10px 0;}
+	#aboutjordan .dropoptions {margin-left: 0;}
+	#aboutjordan .activitiesbox {padding-left: 25px; width: 100%;}
+	.activitiesbox .imgs li {width: 132px;}
+	#packagespart .fpackages .packagesinner {min-height: 447px;}
+	#packagespart .fpackages .packagesdesc {padding: 0px 15px 30px;}
+	#packagespart .packagesdesc .boxlinks li {padding-right: 17px;}
+	#packagespart .packagesdesc .boxlinks li:last-child {padding-left: 17px;}
+	#footerpart .col1 {width: 250px; padding-right: 30px;}
+	#footerpart .col2 {width: 80px;}
+	#footerpart .col3 {width: 130px;}
+	#footerpart .col4 {width: 110px;}
+	#footerpart .col5 {width: 107px;}
+	#footerpart .col6 {width: 130px;}
+}
+@media only screen and (max-width: 991px){
+	header .container{width: 750px;}
+	.container {width: 750px;}
+	header .welcome {display: none;}
+	header .topheader .rtoph {width: 100%;}
+	header .topheader .custform {float: left; border-left: none;}
+	header .topheader .custform .custfield {background-position: 15px 50%; padding-left: 35px;}
+	.topheader .cbttn {padding: 12px 10px;}
+	#menu-icon {background: url(../images/menu-icon.jpg) no-repeat 0 0; width: 28px; height: 29px; float: left; cursor: pointer;}
+	header .menupart {position: relative;}
+	header .custnav {margin-top: 19px; margin-left: 15px;}
+	header .custnav ul.menus {position: absolute; z-index: 12; background-color: #ffffff; width: 100%; top: 65px; left: 0; display: none;}
+	header .custnav ul.menus > li {width: 100%; border-right: none; border-bottom: 1px solid #d9d9d9; padding: 10px 15px 8px !important;}
+	header .custnav .sublev2 {float: left; position: relative; top: inherit; left: inherit; width: 100%;}
+	#slider .slidertexts h1 {font-size: 50px;}
+	#slider .slidertexts h3 {font-size: 26px; min-height: 101px;}
+	#slider .carousel-control.left {left: 15px;}
+	#slider .carousel-control.right {right: 15px;}
+	#aboutpart {padding: 35px;}
+	#aboutpart .aboutus {padding-right: 30px;}
+	#aboutjordan .mapbox {padding: 0 20px;}
+	#aboutjordan .custtabs {width: 89.4%; left: 40px;}
+	.mapbg {display: none;}
+	/*.commonmapbox {height: 510px;}*/
+	#aboutjordan .map {height: 510px;}
+	#aboutjordan .map iframe {top: -9%; height: 109%;}
+	#aboutjordan .activitiesbox {padding-left: 0;}
+	.activitiesbox .maplink {background-size: cover;}
+	#packagespart .fpackages .fpackagesbox {padding: 40px 10px 0px;}
+	#packagespart .packagesdesc .boxlinks li {float: left; border-right: none; margin-bottom: 10px;}
+	#packagespart .packagesdesc .boxlinks li:last-child {padding-left: 0px;}
+	#packagespart .packagesdesc h2 a {font-size: 20px;}
+	#packagespart .fpackages .packagesinner {min-height: 479px;}
+	#brandlogopart .brandlogo li {width: 215px;}
+	#brandlogopart .brandlogo li img{width: 100%;}
+	#footerpart {padding-top: 60px;}
+	#footerpart .footerbox {width: 18.5%;}
+	#footerpart .col1 {width: 100% !important; padding-right: 0;}
+	#footerpart .col2 {width: 10%;}
+	#footerpart .col4, #footerpart .col5 {width: 17%;}
+	#footerpart .copyright p {width: 100%; text-align: center; margin: 0px 0px 15px;}
+	#footerpart .copyright .ficons {width: 100%; text-align: center;}
+	#footerpart .copyright .ficons a {display: inline-block; float: none;}
+}
+@media only screen and (max-width: 767px){
+	header .container, .container {width: auto; padding: 0 15px;}
+	#slider .slidertexts {width: 475px;}
+	#slider .slidertexts h3 {font-size: 24px; line-height: 26px; min-height: 0;}
+	#slider .slidertexts p {min-height: 136px;}
+	#aboutjordan .custtabs {width: 88.4%;}
+	#packagespart .fpackages {margin: 0px;}
+	#packagespart .fpackages .fpackagesbox {padding:20px 15px 0px;}
+	#packagespart .packagesdesc p {min-height: 0;}
+	#socialpart .socialwall .socialbox {margin-bottom: 10px;}
+	#socialpart .socialicon a {background-position: 10px 50%; padding: 7px 13px 6px 36px}
+	#brandlogopart .brandlogo li {margin: 10px 5px; width: 191px;}
+	#footerpart .footerbox {width: 25%; min-height: 178px;}
+	#packagespart .fpackages .packagesinner {min-height: auto;}
+}
+@media only screen and (max-width: 639px){
+	.commontitile h1 {font-size: 40px;}
+	header .topheader .custform {width: 203px;}
+	#slider .slidertexts {width: 100%;}
+	#slider .carousel-caption {left: 14%;}
+	#slider .slidertexts h1 {font-size: 32px;}
+	#slider .slidertexts h3 {font-size: 16px; line-height: 16px; padding: 5px 0 12px;}
+	#slider .slidertexts p {padding: 11px 0 10px; line-height: 16px; min-height: 0;}
+	.fbttn, .bbttn {padding: 10px 50px 8px 19px;}
+	#aboutpart {padding: 35px 15px;}
+	#packagespart, #socialpart {padding-top: 40px;}
+	#aboutjordan .custtabs {width: 83.4%;}
+	#socialpart .socialicon a {margin: 10px 8px;}
+	#brandlogopart .brandlogo li {width: 100%; margin: 10px 0px;}
+	#footerpart .footerbox {width: 50%;}
+	#footerpart .copyright {padding: 15px 0px;}
+}
+@media only screen and (max-width: 479px){
+	header .topheader .custform {width: 100%; border-bottom: 1px solid #d9d9d9; border-right: none;}
+	header .topheader .linkbtns {width: 100%;}
+	header .custnav {margin-left: 9px;}
+	header .signuplogin a {padding-right: 40px;}
+	#slider .slidertexts h3, #slider .slidertexts p {display: none;}
+	#slider .carousel-caption {left: 18%;}
+	#slider .slidertexts h1 {font-size: 36px;}
+	#slider .sbtns .bbttn {margin-top: 5px;}
+	#aboutpart .aboutus {padding-right: 0px;}
+	#aboutjordan .custtabs {width: 75.4%; top: -17px;}
+	#aboutjordan .custtabs .nav-tabs {text-align: center;}
+	.custtabs .nav-tabs > li {margin-top: 11px; float: none; display: inline-block;}
+	.custtabs .nav-tabs > li > a {display: inline-block; float: none;}
+	#aboutjordan select.custfield, #aboutjordan .dropoptions .dropselect {display: inline-block;}
+	#aboutjordan .dropoptions .dropselect {display: inline-block;}
+	#aboutjordan .dropoptions {text-align: center;}
+	.commontitile h1 {font-size: 29px; line-height: 33px;}
+	.commontitile h1 span {font-size: 20px;}
+	.activitiesbox .imgs li {width: 46%;}
+	.activitiesbox .imgs li:nth-child(2n+2) {margin-right: 0;}
+	#aboutpart .commontitile h1, #aboutjordan .commontitile h1 {line-height: 33px;}
+	/*#footerpart .footerbox {width: 100%; min-height: auto;}*/
+	#footerpart .copyright p a {display: inline-block;}
+}
